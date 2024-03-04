@@ -2,3 +2,9 @@ public class Main {
  public static int add(int x, int y) {
         return x + y; 
 }
+public static void main(String[] args) {
+        // Test the add function
+        int result = add(5, 7);
+        System.out.println("Sum: " + result); // This should print "Sum: 12"
+    }
+}
